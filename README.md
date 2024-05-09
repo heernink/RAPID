@@ -5,5 +5,5 @@ PyTorch Implementation of __RAPID__
 </p>
 
 <p align="center">
-  <img src="https://github.com/heernink/RAPID/assets/75311780/f2d80a42-eed3-4043-a44e-3daa3d685d29" width="600" height="400"/>
+  <img src="https://github.com/heernink/RAPID/assets/75311780/f2d80a42-eed3-4043-a44e-3daa3d685d29" >
 </p>
