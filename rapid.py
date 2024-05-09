@@ -251,7 +251,7 @@ def clustering(limit_var_upper, limit_var_lower, ker_var_list, window_size, stri
                 #print(coor_m)
 
                 for i in range(len(coor_m)):
-                    img_patch[:, coor_m.iloc[i]["x_coor"]:coor_m.iloc[i]["x_coor"]+6, coor_m.iloc[i]["y_coor"]:coor_m.iloc[i]["y_coor"]+6] = 0
+                    img_patch[:, coor_m.iloc[i]["x_coor"]:coor_m.iloc[i]["x_coor"]+window_size, coor_m.iloc[i]["y_coor"]:coor_m.iloc[i]["y_coor"]+window_size] = 0
                 ########### Masking half Exp ############
                 #img_patch[:, int(x_min/2):int(x_max/2), y_min:y_max] = 0
 
